@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <MER>
 	<Informacoes>
-		<Posicao Left="0" Top="0"/>
-		<TotalItens Valor="61"/>
+		<Posicao Left="478" Top="0"/>
+		<TotalItens Valor="62"/>
 		<Tipo Valor="LÓGICO"/>
 		<Versao Valor="2.0.0"/>
 		<Autor Valor=""/>
@@ -106,7 +106,12 @@
           <Top Valor="80"/>
           <Width Valor="161"/>
           <Height Valor="19"/>
-          <Fonte default="-1"/>
+          <Fonte default="0">
+            <FonteNome Valor="Tahoma"/>
+            <FonteTamanho Valor="8"/>
+            <FonteEstilo Valor="[fsBold]"/>
+            <FonteCor Valor="16711680"/>
+          </Fonte>
           <Dicionario></Dicionario>
           <Nula Valor="-1"/>
           <Observacao></Observacao>
@@ -688,7 +693,7 @@
       <Left Valor="752"/>
       <Top Valor="231"/>
       <Width Valor="206"/>
-      <Height Valor="107"/>
+      <Height Valor="118"/>
       <Fonte default="-1"/>
       <Dicionario></Dicionario>
       <Nula Valor="0"/>
@@ -762,9 +767,30 @@
           <OnUpdate Valor="0"/>
           <OnDelete Valor="0"/>
         </Campo>
-        <Campo nome="lucros_gastos" id="50">
+        <Campo nome="lucros" id="50">
           <Left Valor="752"/>
           <Top Valor="304"/>
+          <Width Valor="204"/>
+          <Height Valor="19"/>
+          <Fonte default="-1"/>
+          <Dicionario></Dicionario>
+          <Nula Valor="-1"/>
+          <Observacao></Observacao>
+          <Futuro></Futuro>
+          <Anexos/>
+          <ApenasSeparador Valor="0"/>
+          <IsKey Valor="0"/>
+          <IsFKey Valor="0"/>
+          <Tipo Valor="float(10,2)"/>
+          <TabOrigem Valor="0"/>
+          <CampoOrigem Valor="0"/>
+          <Complemento Valor=""/>
+          <OnUpdate Valor="0"/>
+          <OnDelete Valor="0"/>
+        </Campo>
+        <Campo nome="gastos" id="78">
+          <Left Valor="752"/>
+          <Top Valor="322"/>
           <Width Valor="204"/>
           <Height Valor="19"/>
           <Fonte default="-1"/>
@@ -1072,8 +1098,8 @@
           <MostraCardinalidade Valor="-1" Card_id="20"/>
           <Cardinalidades Cardinalidade="4">
             <Cardinalidade nome="" id="20">
-              <Left Valor="644"/>
-              <Top Valor="391"/>
+              <Left Valor="645"/>
+              <Top Valor="375"/>
               <Width Valor="40"/>
               <Height Valor="20"/>
               <Fonte default="-1"/>
@@ -1099,7 +1125,7 @@
           <Cardinalidades Cardinalidade="1">
             <Cardinalidade nome="" id="21">
               <Left Valor="714"/>
-              <Top Valor="269"/>
+              <Top Valor="275"/>
               <Width Valor="40"/>
               <Height Valor="20"/>
               <Fonte default="-1"/>
